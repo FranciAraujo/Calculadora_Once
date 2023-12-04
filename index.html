@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Mi calculadora simple</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Francine">
+    <meta name="description" content="Calculadora sencilla">
+    <meta name="keywords" content="calcular, matemáticas">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculadora sencilla</h1>
+    </header>
+
+    <div class="primeiro">
+        <label>Valor del nº 1</label>
+        <input type="text" id="val1" value="7">
+        <br>
+        <label>Valor del nº 2</label>
+        <input type="text" id="val2" value="4">
+        <br>
+        <input type="button" class="sumar purple" value="Sumar" onclick="calcular('+')">
+        <input type="button" class="restar gis" value="Restar" onclick="calcular('-')">
+        <input type="button" class="multiplicar blue" value="Multiplicar" onclick="calcular('*')">
+        <input type="button" class="dividir orange" value="Dividir" onclick="calcular('/')">
+        <br>
+        <label>Resultado:</label>
+        <input id="resultado" type="text">
+    </div>
+
+</body>
+
+</html>
+
